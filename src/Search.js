@@ -10,12 +10,15 @@ export default function Search() {
   const [city, setCity] = useState("");
   const [info, setInfo] = useState({});
   const [temp, setTemp] = useState(false);
+
   let apiKey = "52e34c3750a0a87a4e68575b57b95041";
   let units = "metric";
 
   function showTemperature(response) {
     setTemp(true);
     setInfo({
+      lat: response.data.lat,
+      lon: response.data.lon,
       city: response.data.name,
       date: "Today",
       temperature: Math.round(response.data.main.temp),
