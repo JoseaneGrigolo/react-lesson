@@ -1,0 +1,9 @@
+.RatingApp .rating > input {
+  display: none;
+}
+.RatingApp .rating > label {
+  cursor: pointer;
+}
+.RatingApp .form-check-label {
+  font-size: 20px;
+}

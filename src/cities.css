@@ -1,0 +1,16 @@
+.Cities .list-cities {
+  list-style: none;
+  font-family: monospace;
+}
+.Cities .list-city {
+  display: inline;
+  margin-right: 25px;
+  font-size: 18px;
+}
+.Cities a {
+  text-decoration: none;
+}
+.Cities a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
