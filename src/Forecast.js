@@ -7,7 +7,7 @@ export default function Forecast(props) {
   const [temp, setTemp] = useState(false);
 
   if (props.forecast) {
-    let newApi = `64469ac67e6dc941feb5b50915a18dc7`;
+    let newApi = `ca0db41e2e878c74a1dfc7ffece370d4`;
     let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${props.forecast.lat}&lon=${props.forecast.lon}&appid=${newApi}&units=metric`;
     axios.get(apiUrl).then(displayForecast);
   }

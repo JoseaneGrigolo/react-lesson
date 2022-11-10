@@ -7,14 +7,7 @@
 .TodayPrevision .celsius {
   font-size: 18px;
   font-family: monospace;
-  border: none;
-  background: #fff;
   color: #007bff;
-}
-.TodayPrevision .active {
-  background: linear-gradient(#c7d4ed, #007bff);
-  border-radius: 5px;
-  color: white;
 }
 .TodayPrevision .img-prevision {
   width: 50px;

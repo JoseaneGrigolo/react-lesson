@@ -27,8 +27,8 @@ export default function TodayPrevision(props) {
             {props.info.temperature}
           </output>
         </div>
-        <div className="col-4">
-          <button className="celsius fw-bold mt-3 active">°C</button>
+        <div className="col-4 mt-2 text-start ms-2">
+          <span className="celsius fw-bold">°C</span>
         </div>
         <div className="col-1"></div>
       </div>
