@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Cities from "./Cities";
-import Search from "./Search";
 
+import Search from "./Search";
 import Footer from "./Footer";
 
 import "./App.css";
@@ -13,7 +13,6 @@ function App() {
         <Header />
         <Cities />
         <Search />
-
         <Footer />
       </div>
       <small className="open-source">

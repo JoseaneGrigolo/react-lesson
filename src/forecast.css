@@ -1,4 +1,11 @@
-.Forecast .font-size {
-  font-size: 22px;
+.img-forecast {
+  width: 50px;
+}
+.forecast-list {
+  font-size: 20px;
+  color: #007bff;
   font-family: monospace;
+}
+.font-temp {
+  font-size: 18px;
 }

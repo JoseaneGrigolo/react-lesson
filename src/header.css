@@ -1,10 +1,7 @@
 .Header .logo {
   max-width: 70px;
 }
-.Header .alert-for {
-  font-size: 16px;
-  font-family: monospace;
-}
+
 .Header .btn-close {
   height: 1px;
   width: 2px;

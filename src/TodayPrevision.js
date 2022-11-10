@@ -23,23 +23,18 @@ export default function TodayPrevision(props) {
           />
         </div>
         <div className="col-3 text-secondary">
-          <output type="text" className="today-celsius" id="temperature-change">
+          <output type="text" className="today-celsius">
             {props.info.temperature}
           </output>
         </div>
         <div className="col-4">
-          <button className="celsius fw-bold mt-3 active" id="button-celsius">
-            °C
-          </button>
-          <button className="celsius fw-bold mt-3" id="button-fahrenheit">
-            °F
-          </button>
+          <button className="celsius fw-bold mt-3 active">°C</button>
         </div>
         <div className="col-1"></div>
       </div>
 
       <h5 className="text-primary fw-bold font" id="description">
-        {props.info.descripition}
+        {props.info.description}
       </h5>
       <p className="p-0 m-0 text-secondary font">
         Humidity: <span id="humidity">{props.info.humidity}</span>%
