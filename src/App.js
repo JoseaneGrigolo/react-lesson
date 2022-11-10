@@ -1,6 +1,5 @@
 import Header from "./Header";
 import Cities from "./Cities";
-
 import Search from "./Search";
 import Footer from "./Footer";
 
@@ -17,7 +16,7 @@ function App() {
       </div>
       <small className="open-source">
         <a
-          href="https://github.com/JoseaneGrigolo/weather-project"
+          href="https://github.com/JoseaneGrigolo/react-lesson"
           target="_blank"
           rel="noreferrer"
         >
